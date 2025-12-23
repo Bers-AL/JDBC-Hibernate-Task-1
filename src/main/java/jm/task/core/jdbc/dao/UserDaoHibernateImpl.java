@@ -31,6 +31,11 @@ public class UserDaoHibernateImpl implements UserDao {
     }
 
     @Override
+    public User getUserById(long id) {
+        return null;
+    }
+
+    @Override
     public List<User> getAllUsers() {
         return null;
     }

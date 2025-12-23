@@ -13,6 +13,8 @@ public interface UserDao {
 
     void removeUserById(long id);
 
+    User getUserById(long id);
+
     List<User> getAllUsers();
 
     void cleanUsersTable();
