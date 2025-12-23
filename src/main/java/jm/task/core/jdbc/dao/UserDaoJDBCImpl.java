@@ -25,6 +25,10 @@ public class UserDaoJDBCImpl implements UserDao {
 
     }
 
+    public User getUserById(long id) {
+        return null;
+    }
+
     public List<User> getAllUsers() {
         return null;
     }
