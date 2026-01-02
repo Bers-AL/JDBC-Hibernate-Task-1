@@ -62,11 +62,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                '}';
+        return ("User{" +
+                "id=%d, " +
+                "name=%s, " +
+                "lastName=%s, " +
+                "age=%d}" +
+                "").formatted(id, name, lastName, age);
     }
 }
